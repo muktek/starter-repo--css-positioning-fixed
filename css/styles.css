@@ -1,0 +1,52 @@
+*{ box-sizing: border-box }
+
+body{
+   margin: 0;
+   font-family: "GillSans", sans-serif;
+}
+
+img {
+   width: 100%;
+   display: block;
+}
+
+
+.room-card {
+  margin: 20px 0;
+  max-width: 400px;
+}
+
+.content-container{
+  display: flex;
+}
+
+.icon-column{
+  padding: 10px;
+}
+
+.heart-icon{
+  width: 50px;
+}
+
+.user-icon{
+  width: 80px;
+  border-radius: 50%;
+
+  /*--- (1) position: relative style here--- */
+
+  /* --- end (1)---*/
+}
+
+
+/*--- (2) position: relative + position: absolute style here--- */
+
+.image-container {
+
+}
+
+.like-btn {
+
+}
+
+
+/* --- end (2)---*/
