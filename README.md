@@ -7,4 +7,4 @@
 
 ### Visualization
 
-![component](./mockups/position-demo.png)
+![component](./mockups/positioning-demo.png)
