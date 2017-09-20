@@ -2,51 +2,32 @@
 
 body{
    margin: 0;
-   font-family: "GillSans", sans-serif;
+   font-family: Arial, sans-serif;
+   background: #C1C1C1;
 }
 
+#app-container{
+  max-width: 750px;
+  background: #fff;
+  margin: 0 auto;
+  border-left: 2px solid #333;
+  border-right: 2px solid #333;
+}
+p { padding: 0 20px; }
 img {
-   width: 100%;
-   display: block;
+  width: 100%;
+  display: block
 }
 
-
-.room-card {
-  margin: 20px 0;
-  max-width: 400px;
+header img{
+  border-bottom: 3px solid #333;
 }
 
-.content-container{
-  display: flex;
+/* RELEVANT CODE */
+
+#clippy{
+  position: fixed;
+  bottom: 20px;;
+  right: 20px;
+  width: 200px;
 }
-
-.icon-column{
-  padding: 10px;
-}
-
-.heart-icon{
-  width: 50px;
-}
-
-.user-icon{
-  width: 80px;
-  border-radius: 50%;
-
-  /*--- (1) position: relative style here--- */
-
-  /* --- end (1)---*/
-}
-
-
-/*--- (2) position: relative + position: absolute style here--- */
-
-.image-container {
-
-}
-
-.like-btn {
-
-}
-
-
-/* --- end (2)---*/
