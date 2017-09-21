@@ -2,4 +2,4 @@
 
 ### Visualization
 
-![component](./mockups/positioning-demo.png)
+![component](./mockups/fixed-clippy.gif)
